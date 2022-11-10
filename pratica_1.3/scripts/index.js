@@ -19,8 +19,7 @@ if (!termineiTrabalho || tenhoCompromisso) {
 }
 
 //Desafio 02
-
-var num = 10
+var num = 6
 
 switch (num) {
     case 2:
@@ -36,7 +35,7 @@ switch (num) {
         break;
 
     default:
-        num % 2 === 0 || num === 2
+        num % 2 === 0
             ?
             console.log(num + ": não é primo")
             :
