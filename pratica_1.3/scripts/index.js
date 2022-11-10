@@ -2,7 +2,7 @@
 
 var caminhada
 var corrida
-var horaQueAcordei = 7
+var horaQueAcordei
 var termineiTrabalho = true
 var tenhoCompromisso
 
@@ -18,3 +18,41 @@ if (!termineiTrabalho || tenhoCompromisso) {
     console.log('Saio Tarde')
 }
 
+//Desafio 02
+
+var num = 10
+
+switch (num) {
+    case 2:
+        console.log(num + ": é primo")
+        break;
+
+    case 3:
+        console.log(num + ": é primo")
+        break;
+
+    case 5:
+        console.log(num + ": é primo")
+        break;
+
+    default:
+        num % 2 === 0 || num === 2
+            ?
+            console.log(num + ": não é primo")
+            :
+            num % 3 === 0
+                ?
+                console.log(num + ": não é primo")
+                :
+                num % 5 === 0
+                    ?
+                    console.log(num + ": não é primo")
+                    :
+                    console.log(num + ": é primo")
+        break;
+}
+
+var hora = 1
+var minutos = 0
+var result = hora > 0 ? minutos = hora * 60 : minutos = 60
+console.log(result)
