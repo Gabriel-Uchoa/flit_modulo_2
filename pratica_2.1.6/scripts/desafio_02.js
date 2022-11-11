@@ -5,7 +5,7 @@ function confirmarDados(nome) {
     var geracao = 'millenium'
 
     function getAnoNascimento() {
-        var idade = 20
+        var idade = 40
         var ano = 2022 - idade
         return {
             idade, ano
