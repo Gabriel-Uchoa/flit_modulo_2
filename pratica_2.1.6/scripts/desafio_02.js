@@ -22,4 +22,4 @@ function confirmarDados(nome) {
 }
 
 confirmarDados('Marcos')
-console.log()
+console.log('')
