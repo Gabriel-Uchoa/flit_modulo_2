@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    background-color: #2E2E2E;
+    padding: 30px;
+    text-align: center;
+    height: 100vh;
+}
+
+.forms {
+    background-color: white;
+    margin: 0 auto;
+    min-height: 80vh;
+    width: 60vw;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.styleInput {
+    background-color: pink;
+    float: left;
+    margin: 7px 10px;
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    outline: none;
+}
+
+.input:focus {
+    outline: 2px solid purple;
+}
+
+
+#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+.check {
+    margin: 5px auto;
+}
+
+.checkboxs {
+    border: 1px solid gray;
+}
+
+@media (min-width: 800px) {
+    .styleInput {
+        background-color: aqua;
+        width: 25%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+    .styleInput {
+        background-color: red;
+        width: 40%;
+    }
+}
+
+@media (max-width: 399px) {
+    .styleInput {
+        background-color: pink;
+        width: 100%;
+    }
+}

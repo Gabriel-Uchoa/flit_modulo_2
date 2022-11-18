@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="content">
+        <form class="forms" action="https://api.flit.com.br/submeterDados" method="post">
+            <div class="title">
+                <h2>Cadastro de Loja</h2>
+            </div>
+            <div class="styleInput">
+                <label for="name">Nome</label>
+                <input class="input" id="name" placeholder="Ex: Gabriel" />
+            </div>
+            <div class="styleInput">
+                <label for="adress">Endereço</label>
+                <input class="input" type="text" id="adress" placeholder="Bairro, Municipio, Estado" />
+            </div>
+            <div class="styleInput">
+                <label>Dias da Semana em que funciona</label>
+                <div>
+                    <input type="checkbox" id="segunda" name="diasSemanaOn" value="0">
+                    <label class=" check" for="segunda">Segunda-feira</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terca" name="diasSemanaOn" value="1">
+                    <label class=" check" for="terca">Terça-feira</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="quarta" name="diasSemanaOn" value="2">
+                    <label class=" check" for="quarta">Quarta-feira</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="quinta" name="diasSemanaOn" value="3">
+                    <label class=" check" for="quinta">Quinta-feira</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sexta" name="diasSemanaOn" value="4">
+                    <label class=" check" for="sexta">Sexta-feira</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="sabado" name="diasSemanaOn" value="5">
+                    <label class=" check" for="sabado">Sabado</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="domingo" name="diasSemanaOn" value="6">
+                    <label class=" check" for="domingo">Domingo</label>
+                </div>
+
+            </div>
+            <div class="styleInput">
+                <label for="quartocheck">Horario de Abertura</label>
+                <input class="input" id="hourOpen" type="time" />
+            </div>
+            <div class="styleInput">
+                <label for="quintocheck">Horario de Fechamento</label>
+                <input class="input" id="hourClosed" type="time" />
+            </div>
+            <div class="styleInput">
+                <button class="input" id="submit" type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </section>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
