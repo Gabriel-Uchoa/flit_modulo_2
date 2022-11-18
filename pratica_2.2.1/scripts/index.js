@@ -19,7 +19,6 @@ function getValuesCheckbox() {
     var values = [];
 
     for (var i = 0; i < diasSemanaOn.length; i++) {
-
         values.push(diasSemanaOn[i].value);
     }
     window.localStorage.setItem('diasSemanaOn', JSON.stringify(values))
