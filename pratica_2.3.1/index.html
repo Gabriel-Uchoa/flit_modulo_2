@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Pratica 2.3.1</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="forms" class="forms">
+            <div class="inputs" id="item1">
+                <label> Nome
+                    <input type="text">
+                </label>
+            </div>
+            <div class="inputs" id="item2">
+                <label> Endereço
+                    <input type="text">
+                </label>
+            </div>
+            <div class="inputs" id="item3">
+                <label> Dias das Semana em funcionamento:
+                    <div>
+                        <label>
+                            <input type="checkbox" id="seg" />Segunda-Feira
+                        </label>
+                        <label>
+                            <input type="checkbox" id="ter" />Terça-Feira
+                        </label>
+                        <label>
+                            <input type="checkbox" id="qua" />Quarta-Feira
+                        </label>
+                        <label>
+                            <input type="checkbox" id="qui" />Quinta-Feira
+                        </label>
+                        <label>
+                            <input type="checkbox" id="sex" />Sexta-Feira
+                        </label>
+                        <label>
+                            <input type="checkbox" id="sab" />Sabado
+                        </label>
+                        <label>
+                            <input type="checkbox" id="dom" />Domingo
+                        </label>
+                    </div>
+                </label>
+            </div>
+            <div class="inputs" id="item4">
+                <label> Horário de abertura
+                    <input type="time">
+                </label>
+            </div>
+            <div class="inputs" id="item5">
+                <label> Horário de fechamento
+                    <input type="time">
+                </label>
+            </div>
+        </form>
+
+        <div class="control">
+            <button id="vertical" value="column">Vertical</button>
+            <button id="horizontal" value="row">Horizontal</button>
+            <button id="ali_inicio" value="flex-start">Alinhar ao Inicio</button>
+            <button id="ali_final" value="flex-end">Alinhar ao Final</button>
+            <button id="flex" value="flex">Display Flex</button>
+            <button id="grid" value="grid">Display Grid</button>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

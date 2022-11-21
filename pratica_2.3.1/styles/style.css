@@ -1,0 +1,16 @@
+.forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.inputs {
+    width: 250px;
+}
+
+.control {
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+}
